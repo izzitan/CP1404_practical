@@ -9,7 +9,6 @@ CONSTANTS = []
 
 def main():
     quick_pick = int((input("How many quick picks? ")))
-    random_numbers = []
     for line in range(quick_pick):
         random_numbers = []
         for i in range(6):
