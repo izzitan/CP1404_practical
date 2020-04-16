@@ -15,8 +15,11 @@ while text != "":
         else:
             dictionary[word] = 1
         count += 1
-    for word in dictionary:
-        print("""{}:  {}""".format(word, dictionary[word]))
+    sorted_dict = sorted(dictionary.items(), key=lambda kv: kv[1], reverse=True)
+    i = 0
+    for word in sorted_dict:
+        print("""{:<10}:  {:>3}""".format(*word))
+        i += 1
     dictionary = {}
     text = input("Text: ")
 
