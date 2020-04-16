@@ -27,5 +27,5 @@ while state_code != "":
     state_code = input("Enter short state: ")
 
 for code in CODE_TO_NAME:
-    print("""{}  is  {}""".format(code,CODE_TO_NAME[code]))
+    print("""{}  is  {}""".format(code, CODE_TO_NAME[code]))
 
