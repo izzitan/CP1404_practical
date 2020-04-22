@@ -24,6 +24,9 @@ def main():
     print("fuel = ", limo.fuel)
     limo.drive(115)
     print("odo = ", limo.odometer)
+    limo.change_name("Limo")
+    print("Name = ", limo.name)
     print(limo)
+
 
 main()
