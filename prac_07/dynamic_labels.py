@@ -27,5 +27,4 @@ class DynamicWidgets(App):
             self.root.ids.entries_box.add_widget(temp_button)
 
 
-
 DynamicWidgets().run()
