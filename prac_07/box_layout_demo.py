@@ -1,3 +1,8 @@
+"""
+Name:   Hafidz Izzi Baihaqi
+GitHub: https://github.com/izzitan/CP1404_practical
+"""
+
 from kivy.app import App
 from kivy.lang import Builder
 
