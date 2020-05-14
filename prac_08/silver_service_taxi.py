@@ -20,8 +20,4 @@ class SilverServiceTaxi(Taxi):
 
     def __str__(self):
         """Return a string like a Car but with current fare distance."""
-        return "{}, {}km on current fare, ${:.2f}/km plus flagfall of ${:.2f}".format(
-                                                             self.name,
-                                                             self.current_fare_distance,
-                                                             self.price_per_km,
-                                                             self.flagfall)
+        return super().__str__() + "plus flagfall of " + str(self.flagfall)

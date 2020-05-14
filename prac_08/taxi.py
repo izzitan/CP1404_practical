@@ -20,7 +20,7 @@ class Taxi(Car):
         """Return a string like a Car but with current fare distance."""
         return "{}, {}km on current fare, ${:.2f}/km".format(super().__str__(),
                                                              self.current_fare_distance,
-                                                             self.price_per_km)
+                                                             round(self.price_per_km, 1))
 
     def get_fare(self):
         """Return the price for the taxi trip."""
