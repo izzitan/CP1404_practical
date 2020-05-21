@@ -5,6 +5,7 @@ GitHub: https://github.com/izzitan/CP1404_practical
 import shutil
 import os
 
+
 def main():
     print(os.getcwd())
 
