@@ -1,4 +1,6 @@
 """
+Name:   Hafidz Izzi Baihaqi
+GitHub: https://github.com/izzitan/CP1404_practical
 CP1404/CP5632 Practical
 Testing demo using assert and doctest
 """
